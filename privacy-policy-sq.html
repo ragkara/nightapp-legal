@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="sq">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politika e Privatësisë — NightApp</title>
+<style>
+:root {
+  --bg: #fff;
+  --text: #1a1a1a;
+  --text-muted: #6b7280;
+  --border: rgba(0,0,0,0.1);
+  --link: #0891b2;
+  --code-bg: rgba(0,0,0,0.05);
+  --table-head: rgba(0,0,0,0.04);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0a0a0a;
+    --text: #e5e5e5;
+    --text-muted: #a1a1aa;
+    --border: rgba(255,255,255,0.1);
+    --link: #06b6d4;
+    --code-bg: rgba(255,255,255,0.07);
+    --table-head: rgba(255,255,255,0.05);
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 32px 20px 80px;
+}
+.lang {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+  font-size: 13px;
+}
+.lang a {
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+.lang a.aktif {
+  background: var(--code-bg);
+  color: var(--text);
+  font-weight: 600;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0 0 8px;
+}
+h2 {
+  font-size: 21px;
+  font-weight: 700;
+  margin: 36px 0 12px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+}
+h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 22px 0 8px;
+  color: var(--text);
+}
+p, li { font-size: 15px; }
+strong { font-weight: 600; }
+a { color: var(--link); }
+ul { padding-left: 22px; }
+li { margin: 4px 0; }
+hr { border: 0; border-top: 1px solid var(--border); margin: 24px 0; }
+.meta { color: var(--text-muted); font-size: 14px; margin-bottom: 24px; }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 16px 0;
+  font-size: 14px;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  text-align: left;
+}
+th {
+  background: var(--table-head);
+  font-weight: 600;
+}
+code {
+  background: var(--code-bg);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+}
+footer {
+  margin-top: 60px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 13px;
+  font-style: italic;
+}
+</style>
+</head>
+<body>
+
+<div class="lang">
+  <a href="privacy-policy.html">Türkçe</a>
+  <a href="privacy-policy-en.html">English</a>
+  <a href="privacy-policy-sq.html" class="aktif">Shqip</a>
+  <a href="privacy-policy-es.html">Español</a>
+  <a href="privacy-policy-de.html">Deutsch</a>
+  <a href="privacy-policy-fr.html">Français</a>
+  <a href="privacy-policy-ru.html">Русский</a>
+  <a href="privacy-policy-sr.html">Srpski</a>
+</div>
+
+<h1>Politika e Privatësisë e NightApp</h1>
+<p class="meta"><strong>Data e hyrjes në fuqi:</strong> 5 maj 2026 · <strong>Përditësuar së fundi:</strong> 5 maj 2026</p>
+
+<p>NightApp ("Aplikacioni", "ne", "yni") vlerëson privatësinë e përdoruesve tanë ("ju", "tuajin"). Kjo Politikë e Privatësisë shpjegon se cilat informacione mbledhim, si i përpunojmë, me kë i ndajmë dhe cilat janë të drejtat tuaja kur përdorni Aplikacionin.</p>
+
+<p>NightApp është dizajnuar për përdoruesit 18 vjeç e lart për të zbuluar lokale të jetës së natës, për t'u përputhur me persona në të njëjtin lokal dhe për të biseduar me ta.</p>
+
+<h2>1. Përkufizime</h2>
+<ul>
+  <li><strong>Të dhëna personale</strong>: Çdo informacion që lidhet me një person fizik të identifikuar ose të identifikueshëm.</li>
+  <li><strong>Shërbimi</strong>: Aplikacioni mobil NightApp dhe shërbimet e lidhura.</li>
+  <li><strong>Kontrolluesi i të dhënave</strong>: Ekipi i NightApp.</li>
+</ul>
+
+<h2>2. Informacionet që Mbledhim</h2>
+
+<h3>2.1 Informacionet e Llogarisë (gjatë regjistrimit)</h3>
+<ul>
+  <li>Adresa e email-it</li>
+  <li>Fjalëkalimi (ruhet i hash-uar, kurrë si tekst i thjeshtë)</li>
+  <li>Emri i shfaqur</li>
+  <li>Data e lindjes (përdoret për llogaritjen e moshës)</li>
+  <li>Gjinia</li>
+  <li>Nëse hyni me Google: emri, email-i dhe foto e profilit nga llogaria juaj Google</li>
+</ul>
+
+<h3>2.2 Informacionet e Profilit (opsionale)</h3>
+<ul>
+  <li>Foto profili (deri në 3)</li>
+  <li>Tekst bio</li>
+  <li>Preferencat për muzikë / pije / vallëzim</li>
+  <li>Qyteti dhe shteti juaj</li>
+</ul>
+
+<h3>2.3 Të dhënat e Vendndodhjes</h3>
+<ul>
+  <li><strong>Vendndodhja në plan të parë</strong> (kur aplikacioni është i hapur): Përdoret për të treguar lokalet afër, për të verifikuar check-in dhe për t'ju përputhur me përdoruesit në të njëjtin lokal.</li>
+  <li>Dhënia e lejes së vendndodhjes është <strong>opsionale</strong>; pa të, funksionet e përputhjes nuk do të funksionojnë, por funksionet e tjera mbeten të disponueshme.</li>
+  <li>Të dhënat e vendndodhjes përpunohen në pajisjen tuaj; vetëm koordinatat e fundit të njohura (gjerësia/gjatësia gjeografike) ruhen në serverët tanë.</li>
+  <li>Vendndodhja në sfond (kur aplikacioni është i mbyllur) <strong>NUK mblidhet</strong>.</li>
+</ul>
+
+<h3>2.4 Të dhënat e Përdorimit</h3>
+<ul>
+  <li>Historiku i check-in (cili lokal, kur)</li>
+  <li>Përputhjet dhe historiku i mesazheve</li>
+  <li>Pëlqimet / swipe</li>
+  <li>Lokalet e ndjekura</li>
+  <li>Preferencat e njoftimeve</li>
+  <li>Preferenca e gjuhës</li>
+</ul>
+
+<h3>2.5 Të dhënat e Pajisjes</h3>
+<ul>
+  <li>Token-i i njoftimeve push (Firebase Cloud Messaging)</li>
+  <li>Sistemi operativ (Android / iOS) dhe versioni</li>
+  <li>Versioni i aplikacionit</li>
+  <li>Gjuha e pajisjes</li>
+</ul>
+
+<h3>2.6 Të dhëna që NUK Mbledhim</h3>
+<ul>
+  <li>Cookies të shfletuesit (aplikacioni është i fokusuar te mobile)</li>
+  <li>Gjurmuesit e reklamave të palëve të treta</li>
+  <li>Mikrofoni / kamera (përveç përzgjedhjes së fotos)</li>
+  <li>Kontaktet / libri i adresave</li>
+</ul>
+
+<h2>3. Si i Përdorim Informacionet Tuaja</h2>
+<p>I përdorim informacionet që mbledhim vetëm për qëllimet e mëposhtme:</p>
+
+<h3>3.1 Për të Ofruar Shërbimin</h3>
+<ul>
+  <li>Krijimi i llogarisë dhe hyrja</li>
+  <li>Shfaqja e profilit tuaj te përdoruesit e tjerë (sipas preferencave tuaja të privatësisë)</li>
+  <li>Sugjerimi i përputhjeve (bazuar në preferencat tuaja për gjini dhe moshë)</li>
+  <li>Listimi i lokaleve dhe rrjedha e check-in</li>
+  <li>Mesazhimi</li>
+</ul>
+
+<h3>3.2 Komunikimi dhe Njoftimet</h3>
+<ul>
+  <li>Njoftime push për përputhje të reja, mesazhe të reja ose përputhje që po skadojnë (mund t'i çaktivizoni)</li>
+  <li>Email-e për sigurinë e llogarisë (rivendosja e fjalëkalimit, verifikimi i email-it)</li>
+</ul>
+
+<h3>3.3 Siguria</h3>
+<ul>
+  <li>Funksionimi i sistemit të raportimit dhe bllokimit</li>
+  <li>Zbulimi i llogarive të rreme dhe mashtrimit</li>
+  <li>Mbrojtja e sistemit nga abuzimi</li>
+</ul>
+
+<h3>3.4 Përmirësimi i Shërbimit</h3>
+<ul>
+  <li>Sigurimi i funksionimit pa probleme (regjistra anonimë të gabimeve)</li>
+  <li>Zhvillimi i veçorive të reja</li>
+</ul>
+
+<h3>3.5 Detyrime Ligjore</h3>
+<ul>
+  <li>Pajtueshmëria me detyrimet ligjore</li>
+  <li>Përgjigjja ndaj proceseve ligjore (urdhra gjykate, etj.)</li>
+</ul>
+
+<h2>4. Ndarja e Informacioneve me Përdorues të Tjerë</h2>
+
+<h3>4.1 Dukshmëria e Profilit</h3>
+<ul>
+  <li>Foto e profilit, emri, mosha, qyteti/shteti dhe teksti i bio-s tuaj janë të dukshëm për përdoruesit me të cilët jeni përputhur ose që bëjnë check-in në të njëjtin lokal.</li>
+  <li>Cilësimet e privatësisë ju lejojnë të kontrolloni:
+    <ul>
+      <li><strong>Fshih moshën time në përputhje</strong>: Mosha juaj fshihet nga karta e profilit.</li>
+      <li><strong>Fshih flamurin tim të shtetit në përputhje</strong>: Flamuri juaj i shtetit fshihet.</li>
+      <li><strong>Më shfaq në listën e lokaleve</strong>: Kur është i çaktivizuar, shfaqeni si figurë "Anonime" në listat e lokaleve (duke kontribuar ende në përqindjet e gjinisë, por detajet e profilit fshihen).</li>
+      <li><strong>Ndaj vendet që kam vizituar</strong>: Nëse vizitorët e profilit tuaj mund të shohin vendet ku keni qenë.</li>
+    </ul>
+  </li>
+  <li>Nëse çaktivizoni "I hapur për përputhje", nuk do të sugjeroheni në përputhjet e lokalit.</li>
+</ul>
+
+<h3>4.2 Mesazhet</h3>
+<ul>
+  <li>Bisedat me përdorues të përputhur janë vetëm midis dy palëve.</li>
+  <li>Ne nuk i lexojmë mesazhet tuaja, por ato ruhen në arkivin tonë për procese ligjore ose hetime raportimi.</li>
+</ul>
+
+<h3>4.3 Reklamat</h3>
+<ul>
+  <li>NightApp <strong>nuk shfaq reklama</strong>.</li>
+  <li><strong>Nuk e ndajmë profilin tuaj me reklamues të palëve të treta</strong>.</li>
+</ul>
+
+<h2>5. Ofruesit e Shërbimeve të Palëve të Treta</h2>
+<p>Për të ekzekutuar NightApp, përdorim ofruesit e shërbimeve të mëposhtëm. Këto shërbime përpunojnë të dhënat tuaja vetëm në emër të NightApp:</p>
+
+<table>
+  <thead>
+    <tr><th>Ofruesi</th><th>Qëllimi</th><th>Vendndodhja e të dhënave</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Supabase</strong></td><td>Bazë të dhënash, autentikim, ruajtje e skedarëve</td><td>BE</td></tr>
+    <tr><td><strong>Google Cloud / Firebase</strong></td><td>Infrastrukturë për njoftime push, hyrje me Google</td><td>Globale</td></tr>
+    <tr><td><strong>Expo</strong></td><td>Infrastrukturë për aplikacione mobile</td><td>SHBA</td></tr>
+  </tbody>
+</table>
+
+<p>Çdo ofrues ka politikën e vet të privatësisë:</p>
+<ul>
+  <li>Supabase: <a href="https://supabase.com/privacy">supabase.com/privacy</a></li>
+  <li>Google: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a></li>
+  <li>Expo: <a href="https://expo.dev/privacy">expo.dev/privacy</a></li>
+</ul>
+
+<h2>6. Ruajtja e të Dhënave</h2>
+<ul>
+  <li><strong>Llogari aktive</strong>: Të dhënat tuaja ruhen për sa kohë llogaria juaj është e hapur.</li>
+  <li><strong>Përputhjet</strong>: Përputhjet mbeten aktive për 3 orë për përdoruesit pa pagesë dhe 24 orë për përdoruesit Premium, më pas arkivohen. Mesazhet nuk fshihen në përputhjet e arkivuara (historiku juaj ruhet).</li>
+  <li><strong>Llogari e fshirë</strong>: Kur e fshini llogarinë tuaj, të gjitha të dhënat tuaja <strong>fshihen përgjithmonë brenda 30 ditëve</strong>. Në rast detyrimesh ligjore (p.sh. hetim mashtrimi), regjistrat përkatës mund të ruhen.</li>
+  <li><strong>Kopjet rezervë të serverit</strong>: Fshirja e plotë nga kopjet rezervë mund të zgjasë deri në 90 ditë.</li>
+  <li><strong>Regjistrat e raportimit</strong>: Përmbajtja e raportuar nga një përdorues ruhet për 1 vit pas mbylljes së raportit.</li>
+</ul>
+
+<h2>7. Të Drejtat Tuaja (GDPR dhe Ekuivalente)</h2>
+<p>Nëse jeni banor i BE-së (GDPR), Mbretërisë së Bashkuar, Kalifornisë (CCPA) ose juridiksioneve të ngjashme, keni të drejtat e mëposhtme:</p>
+<ul>
+  <li><strong>E drejta e qasjes</strong>: Të mësoni cilat të dhëna kemi për ju.</li>
+  <li><strong>E drejta e korrigjimit</strong>: Të kërkoni korrigjimin e të dhënave të pasakta (në aplikacion përmes Profili &gt; Modifiko).</li>
+  <li><strong>E drejta e fshirjes ("e drejta për t'u harruar")</strong>: Fshini llogarinë tuaj (Profili &gt; Fshi llogarinë).</li>
+  <li><strong>E drejta për të kufizuar përpunimin</strong>.</li>
+  <li><strong>E drejta për transportueshmërinë e të dhënave</strong>: Kërkoni një kopje të lexueshme nga makina të të dhënave tuaja.</li>
+  <li><strong>E drejta për të kundërshtuar</strong>: Kundërshtoni përpunime të caktuara (p.sh. algoritmi i rekomandimit të profilit).</li>
+  <li><strong>E drejta për të tërhequr pëlqimin</strong>: Çaktivizoni lejet si vendndodhja në çdo kohë në cilësime.</li>
+  <li><strong>E drejta për të paraqitur ankesë</strong>: Paraqisni ankesë te autoriteti juaj lokal i mbrojtjes së të dhënave.</li>
+</ul>
+<p>Për të ushtruar këto të drejta, na kontaktoni (shih Seksionin 12).</p>
+
+<h2>8. Fshirja e Llogarisë dhe e të Dhënave</h2>
+<p>Mund të <strong>fshini llogarinë tuaj menjëherë brenda aplikacionit</strong>:</p>
+<ol>
+  <li>Shkoni te skeda Profili</li>
+  <li>Trokitni te karta <strong>Fshi llogarinë</strong></li>
+  <li>Përfundoni konfirmimin me dy hapa</li>
+  <li>Të dhënat tuaja fillojnë të fshihen</li>
+</ol>
+
+<p>Çfarë fshihet:</p>
+<ul>
+  <li>Informacionet e profilit tuaj (foto, emri, bio, etiketat)</li>
+  <li>Përputhjet tuaja dhe historiku i mesazheve</li>
+  <li>Historiku juaj i check-in</li>
+  <li>Lokalet që ndiqni</li>
+  <li>Preferencat e njoftimeve</li>
+  <li>Llogaria juaj e autentikimit</li>
+</ul>
+
+<p>Ky veprim është <strong>i pakthyeshëm</strong>.</p>
+
+<h2>9. Privatësia e Fëmijëve</h2>
+<p>NightApp është <strong>i destinuar për përdoruesit 18 vjeç e lart</strong>. Mbledhim datën tuaj të lindjes gjatë regjistrimit dhe refuzojmë regjistrimet nga përdoruesit nën 18 vjeç. Nëse zbulojmë që një përdorues nën 18 vjeç ka krijuar një llogari, marrim masa të menjëhershme për të fshirë llogarinë.</p>
+<p>Në Shtetet e Bashkuara, ne nuk mbledhim me dijeni informacione nga fëmijët nën 13 vjeç në përputhje me COPPA.</p>
+<p>Nëse besoni se janë mbledhur të dhëna të një fëmije nën 18 vjeç, ju lutemi na kontaktoni.</p>
+
+<h2>10. Siguria e të Dhënave</h2>
+<p>Për të mbrojtur të dhënat tuaja, marrim këto masa:</p>
+<ul>
+  <li><strong>Enkriptimi</strong>: I gjithë trafiku enkriptohet përmes HTTPS / TLS. Fjalëkalimet hash-ohen me bcrypt — kurrë nuk ruhen si tekst i thjeshtë.</li>
+  <li><strong>Kontrolli i qasjes</strong>: Në nivelin e bazës së të dhënave, Row Level Security (RLS) siguron që çdo përdorues të mund të qaset vetëm në të dhënat e veta.</li>
+  <li><strong>Infrastruktura e përditësuar</strong>: Serverët marrin përditësime të rregullta sigurie.</li>
+  <li><strong>Njoftimi i shkeljes</strong>: Në rast të një shkeljeje të të dhënave, do t'ju njoftojmë brenda 72 orësh siç kërkohet nga GDPR.</li>
+</ul>
+<p>Asnjë sistem nuk është 100% i sigurt; nuk pretendojmë ndryshe, por ndjekim praktikat më të mira.</p>
+
+<h2>11. Ndryshimet në Këtë Politikë</h2>
+<p>Mund ta përditësojmë këtë politikë herë pas here. Për ndryshime të rëndësishme, ne do të:</p>
+<ul>
+  <li>Dërgojmë një njoftim brenda aplikacionit</li>
+  <li>T'ju njoftojmë me email</li>
+  <li>Përditësojmë datën "Përditësuar së fundi" në krye të kësaj faqeje</li>
+</ul>
+<p>Duke vazhduar të përdorni aplikacionin pas një përditësimi të politikës, ju pranoni kushtet e reja.</p>
+
+<h2>12. Kontakti</h2>
+<p>Për politikën e privatësisë, kërkesat për fshirje të dhënash ose pyetje të përgjithshme:</p>
+<ul>
+  <li><strong>Email</strong>: <code>nightapp.support@gmail.com</code> <em>(domeni dhe adresa e email-it do të shtohen)</em></li>
+  <li><strong>GitHub Issues</strong>: <a href="https://github.com/ragkara/nightapp/issues">github.com/ragkara/nightapp/issues</a> <em>(kur repo-ja të jetë publike)</em></li>
+</ul>
+
+<h2>13. Baza Ligjore (GDPR)</h2>
+<p>Sipas GDPR, ne përpunojmë të dhënat tuaja bazuar në bazat ligjore të mëposhtme:</p>
+<ul>
+  <li><strong>Përmbushja e një kontrate</strong> (GDPR Neni 6(1)(b)): Informacionet e llogarisë dhe profilit për ofrimin e shërbimit.</li>
+  <li><strong>Pëlqimi i shprehur</strong> (GDPR Neni 6(1)(a)): Leja e vendndodhjes, njoftimet push.</li>
+  <li><strong>Interesi legjitim</strong> (GDPR Neni 6(1)(f)): Siguria, anti-mashtrimi, përmirësimi i shërbimit.</li>
+  <li><strong>Detyrimi ligjor</strong> (GDPR Neni 6(1)(c)): Pajtueshmëria me detyrimet ligjore.</li>
+</ul>
+
+<footer>Kjo Politikë e Privatësisë është në fuqi nga 5 maj 2026.</footer>
+
+</body>
+</html>
