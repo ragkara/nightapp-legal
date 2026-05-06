@@ -1,2 +1,2 @@
-# nightapp-legal
+# nightapp-legal 
 NightApp privacy documents
