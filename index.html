@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NightApp — Legal</title>
+<style>
+:root {
+  --bg: #fff;
+  --text: #1a1a1a;
+  --text-muted: #6b7280;
+  --border: rgba(0,0,0,0.1);
+  --link: #0891b2;
+  --card-bg: #fafafa;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0a0a0a;
+    --text: #e5e5e5;
+    --text-muted: #a1a1aa;
+    --border: rgba(255,255,255,0.1);
+    --link: #06b6d4;
+    --card-bg: #1a1a1a;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+.kap {
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+}
+h1 {
+  font-size: 32px;
+  margin: 0 0 8px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.alt {
+  color: var(--text-muted);
+  font-size: 15px;
+  margin: 0 0 32px;
+}
+.kart {
+  display: block;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px 22px;
+  margin: 12px 0;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform 0.15s, border-color 0.15s;
+}
+.kart:hover {
+  transform: translateY(-2px);
+  border-color: var(--link);
+}
+.kart .baslik {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.kart .acik {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+footer {
+  margin-top: 40px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+footer a { color: var(--link); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="kap">
+  <h1>NightApp</h1>
+  <p class="alt">Legal documents · Yasal belgeler</p>
+
+  <a class="kart" href="privacy-policy-en.html">
+    <div class="baslik">Privacy Policy</div>
+    <div class="acik">English version</div>
+  </a>
+
+  <a class="kart" href="privacy-policy.html">
+    <div class="baslik">Gizlilik Politikası</div>
+    <div class="acik">Türkçe sürüm</div>
+  </a>
+
+  <footer>
+    <a href="https://github.com/ragkara/nightapp">GitHub</a> ·
+    Effective May 5, 2026
+  </footer>
+</div>
+</body>
+</html>
